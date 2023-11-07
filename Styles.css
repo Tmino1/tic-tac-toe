@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(43, 43, 43);
+}
+h1{
+    color: beige;
+    padding: 20px;
+    text-align: center;
+}
+p{
+    color: beige;
+    text-align: center;
+}
+th, td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  }
+table, th, td {
+    color: beige;
+    border: 0px solid beige;
+    border-collapse: collapse;
+}
+td:hover {background-color: coral;}
+
+.button1{
+    background-color: rgb(43, 43, 43);
+    border: none;
+    /*transition-duration: .1s;*/
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+.button1:hover {
+    background-color: coral;
+    color: beige;
+  }
+.button2{
+    background-color: coral;
+    border: none;
+    height: 60px;
+    width: 200;
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+}

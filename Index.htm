@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="Scripts.js"></script>
+        <script src="https://kit.fontawesome.com/830c8ded16.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        <p>Developed by: Travis</p>
+
+        <div class="w3-display-container" style="height:380px;">
+            <div class="w3-display-middle">
+                <table id="board">
+                    <tr>
+                        <td id="0"><button type="button" onclick="change('0')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                        <td id="1"><button type="button" onclick="change('1')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                        <td id="2"><button type="button" onclick="change('2')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td id="3"><button type="button" onclick="change('3')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                        <td id="4"><button type="button" onclick="change('4')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                        <td id="5"><button type="button" onclick="change('5')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td id="6"><button type="button" onclick="change('6')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                        <td id="7"><button type="button" onclick="change('7')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                        <td id="8"><button type="button" onclick="change('8')" class="button1">
+                            <i class='far fa-square' style='font-size:36px;color:beige'></i>
+                        </button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="w3-display-bottommiddle">
+                <button type="button" onclick="resetBoard()" class="button2">
+                    Click me to reset
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
