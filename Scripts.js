@@ -88,5 +88,6 @@ function resetBoard(){
         "<i class='far fa-square' style='font-size:36px;color:beige'></i>" + 
     "</button></td></tr>";
     board = [];
+    x = true;
 }
      
